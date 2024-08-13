@@ -30,4 +30,6 @@ buttons.forEach(button => {
     })
 })
 
-// const myiTmeOut = setInterval(moveSlide,2000)
+const myiTmeOut = setInterval(()=> {
+    moveSlide(1)
+},5000)
